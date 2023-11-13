@@ -1,8 +1,7 @@
-import React from 'react';
+
 import transactionModel from '../models/transactionModel.js';
-import dotenv from "dotenv";
 import slugify from 'slugify';
-import jwt from 'jsonwebtoken';
+
 
 
 export const createtransactionController = async (req, res) => {
