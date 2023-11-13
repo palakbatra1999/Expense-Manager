@@ -1,4 +1,4 @@
-import React from 'react';
+
 import usrModel from '../models/usrModel.js';
 import dotenv from "dotenv";
 import {comparePassword, hashPassword} from '../helpers/authHelper.js';
